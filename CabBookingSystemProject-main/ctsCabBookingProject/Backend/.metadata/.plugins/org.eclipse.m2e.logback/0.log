@@ -1,0 +1,370 @@
+2025-07-01 08:30:50,997 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2025-07-01 08:32:04,905 [Worker-8: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cbs.Admin:Admin:0.0.1-SNAPSHOT @ C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Admin\pom.xml.
+2025-07-01 08:32:19,812 [Worker-8: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cbs:AuthService:0.0.1-SNAPSHOT @ C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\AuthService\pom.xml.
+2025-07-01 08:32:30,045 [Worker-8: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cbs:Driver:0.0.1-SNAPSHOT @ C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Driver\pom.xml.
+2025-07-01 08:32:38,512 [Worker-8: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:EurekaServer:0.0.1-SNAPSHOT @ C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\EurekaServer\pom.xml.
+2025-07-01 08:32:42,329 [Worker-8: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:Feedback:0.0.1-SNAPSHOT @ C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Feedback\Feedback\pom.xml.
+2025-07-01 08:32:47,235 [Worker-8: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cbs.Gateway:Gateway:0.0.1-SNAPSHOT @ C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Gateway\pom.xml.
+2025-07-01 08:32:51,352 [Worker-8: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cbs:Payment:0.0.1-SNAPSHOT @ C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Payment\pom.xml.
+2025-07-01 08:32:58,845 [Worker-8: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cbs:Ride:0.0.1-SNAPSHOT @ C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Ride\pom.xml.
+2025-07-01 08:33:03,446 [Worker-8: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cbs:User:0.0.1-SNAPSHOT @ C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\User\pom.xml.
+2025-07-01 08:33:24,041 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AuthService/src/main/java
+2025-07-01 08:33:24,044 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AuthService/src/main/resources
+2025-07-01 08:33:24,076 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AuthService/src/main/resources
+2025-07-01 08:33:24,109 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AuthService/src/test/java
+2025-07-01 08:33:24,111 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AuthService/src/test/resources
+2025-07-01 08:33:30,807 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EurekaServer/src/main/java
+2025-07-01 08:33:30,809 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EurekaServer/src/main/resources
+2025-07-01 08:33:30,841 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EurekaServer/src/main/resources
+2025-07-01 08:33:30,874 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EurekaServer/src/test/java
+2025-07-01 08:33:30,876 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EurekaServer/src/test/resources
+2025-07-01 08:33:35,373 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Admin/src/main/java
+2025-07-01 08:33:35,375 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Admin/src/main/resources
+2025-07-01 08:33:35,405 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Admin/src/main/resources
+2025-07-01 08:33:35,438 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Admin/src/test/java
+2025-07-01 08:33:35,440 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Admin/src/test/resources
+2025-07-01 08:33:39,234 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /User/src/main/java
+2025-07-01 08:33:39,235 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /User/src/main/resources
+2025-07-01 08:33:39,255 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /User/src/main/resources
+2025-07-01 08:33:39,285 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /User/src/test/java
+2025-07-01 08:33:39,285 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /User/src/test/resources
+2025-07-01 08:33:43,305 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Driver/src/main/java
+2025-07-01 08:33:43,307 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Driver/src/main/resources
+2025-07-01 08:33:43,322 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Driver/src/main/resources
+2025-07-01 08:33:43,355 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Driver/src/test/java
+2025-07-01 08:33:43,357 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Driver/src/test/resources
+2025-07-01 08:33:46,808 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Feedback/src/main/java
+2025-07-01 08:33:46,811 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Feedback/src/main/resources
+2025-07-01 08:33:46,837 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Feedback/src/main/resources
+2025-07-01 08:33:46,865 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Feedback/src/test/java
+2025-07-01 08:33:46,877 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Feedback/src/test/resources
+2025-07-01 08:33:51,459 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Payment/src/main/java
+2025-07-01 08:33:51,462 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Payment/src/main/resources
+2025-07-01 08:33:51,506 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Payment/src/main/resources
+2025-07-01 08:33:53,265 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Payment/src/test/java
+2025-07-01 08:33:53,336 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Payment/src/test/resources
+2025-07-01 08:33:59,213 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Gateway/src/main/java
+2025-07-01 08:33:59,215 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Gateway/src/main/resources
+2025-07-01 08:33:59,249 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Gateway/src/main/resources
+2025-07-01 08:33:59,295 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Gateway/src/test/java
+2025-07-01 08:33:59,298 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Gateway/src/test/resources
+2025-07-01 08:34:02,595 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Ride/src/main/java
+2025-07-01 08:34:02,597 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Ride/src/main/resources
+2025-07-01 08:34:02,619 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Ride/src/main/resources
+2025-07-01 08:34:02,656 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Ride/src/test/java
+2025-07-01 08:34:02,658 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Ride/src/test/resources
+2025-07-01 08:34:04,618 [Worker-8: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 9 project(s) in 139 sec
+2025-07-01 08:34:07,374 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-07-01 08:34:30,057 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cbs.Admin:Admin:0.0.1-SNAPSHOT @ C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Admin\pom.xml.
+2025-07-01 08:34:38,438 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cbs:AuthService:0.0.1-SNAPSHOT @ C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\AuthService\pom.xml.
+2025-07-01 08:34:40,348 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cbs:Driver:0.0.1-SNAPSHOT @ C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Driver\pom.xml.
+2025-07-01 08:34:44,174 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:EurekaServer:0.0.1-SNAPSHOT @ C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\EurekaServer\pom.xml.
+2025-07-01 08:34:46,640 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:Feedback:0.0.1-SNAPSHOT @ C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Feedback\Feedback\pom.xml.
+2025-07-01 08:34:49,355 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cbs.Gateway:Gateway:0.0.1-SNAPSHOT @ C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Gateway\pom.xml.
+2025-07-01 08:34:51,242 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cbs:Payment:0.0.1-SNAPSHOT @ C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Payment\pom.xml.
+2025-07-01 08:34:52,244 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cbs:Ride:0.0.1-SNAPSHOT @ C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Ride\pom.xml.
+2025-07-01 08:34:54,227 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cbs:User:0.0.1-SNAPSHOT @ C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\User\pom.xml.
+2025-07-01 08:35:24,416 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Admin/src/main/java
+2025-07-01 08:35:24,419 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Admin/src/main/resources
+2025-07-01 08:35:24,421 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Admin/src/main/resources
+2025-07-01 08:35:24,422 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Admin/src/test/java
+2025-07-01 08:35:24,424 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Admin/src/test/resources
+2025-07-01 08:35:28,329 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AuthService/src/main/java
+2025-07-01 08:35:28,339 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AuthService/src/main/resources
+2025-07-01 08:35:28,341 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AuthService/src/main/resources
+2025-07-01 08:35:28,341 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AuthService/src/test/java
+2025-07-01 08:35:28,343 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AuthService/src/test/resources
+2025-07-01 08:35:31,202 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Driver/src/main/java
+2025-07-01 08:35:31,205 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Driver/src/main/resources
+2025-07-01 08:35:31,207 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Driver/src/main/resources
+2025-07-01 08:35:31,208 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Driver/src/test/java
+2025-07-01 08:35:31,211 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Driver/src/test/resources
+2025-07-01 08:35:37,047 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EurekaServer/src/main/java
+2025-07-01 08:35:37,047 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EurekaServer/src/main/resources
+2025-07-01 08:35:37,052 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EurekaServer/src/main/resources
+2025-07-01 08:35:37,053 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EurekaServer/src/test/java
+2025-07-01 08:35:37,056 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EurekaServer/src/test/resources
+2025-07-01 08:35:40,638 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Feedback/src/main/java
+2025-07-01 08:35:40,640 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Feedback/src/main/resources
+2025-07-01 08:35:40,644 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Feedback/src/main/resources
+2025-07-01 08:35:40,645 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Feedback/src/test/java
+2025-07-01 08:35:40,647 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Feedback/src/test/resources
+2025-07-01 08:35:45,510 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Gateway/src/main/java
+2025-07-01 08:35:45,512 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Gateway/src/main/resources
+2025-07-01 08:35:45,514 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Gateway/src/main/resources
+2025-07-01 08:35:45,515 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Gateway/src/test/java
+2025-07-01 08:35:45,518 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Gateway/src/test/resources
+2025-07-01 08:35:50,249 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Payment/src/main/java
+2025-07-01 08:35:50,317 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Payment/src/main/resources
+2025-07-01 08:35:50,321 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Payment/src/main/resources
+2025-07-01 08:35:50,323 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Payment/src/test/java
+2025-07-01 08:35:50,328 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Payment/src/test/resources
+2025-07-01 08:35:55,176 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Ride/src/main/java
+2025-07-01 08:35:55,179 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Ride/src/main/resources
+2025-07-01 08:35:55,181 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Ride/src/main/resources
+2025-07-01 08:35:55,182 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Ride/src/test/java
+2025-07-01 08:35:55,184 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Ride/src/test/resources
+2025-07-01 08:35:57,522 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /User/src/main/java
+2025-07-01 08:35:57,528 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /User/src/main/resources
+2025-07-01 08:35:57,530 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /User/src/main/resources
+2025-07-01 08:35:57,531 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /User/src/test/java
+2025-07-01 08:35:57,534 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /User/src/test/resources
+2025-07-01 08:36:03,443 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 9 poms: local refresh takes 2.00 sec, refresh facades takes 73.00 sec, update config takes 36.00 sec 
+2025-07-01 08:36:05,774 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-01 08:36:05,820 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-01 08:36:05,828 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Admin\src\test\resources
+2025-07-01 08:36:08,798 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-01 08:36:08,847 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-01 08:36:08,855 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\AuthService\src\test\resources
+2025-07-01 08:36:10,897 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-01 08:36:10,940 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-01 08:36:10,949 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Driver\src\test\resources
+2025-07-01 08:36:11,815 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-01 08:36:11,856 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-01 08:36:11,864 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\EurekaServer\src\test\resources
+2025-07-01 08:36:13,012 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-01 08:36:13,055 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-01 08:36:13,062 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Feedback\Feedback\src\test\resources
+2025-07-01 08:36:14,087 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-07-01 08:36:14,170 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-01 08:36:14,176 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Gateway\src\test\resources
+2025-07-01 08:36:15,146 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-01 08:36:15,203 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-01 08:36:15,205 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Payment\src\test\resources
+2025-07-01 08:36:16,749 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-01 08:36:16,792 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-01 08:36:16,799 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Ride\src\test\resources
+2025-07-01 08:36:18,070 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-07-01 08:36:18,141 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-01 08:36:18,172 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\User\src\test\resources
+2025-07-01 08:39:03,029 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-01 08:39:03,098 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-01 08:39:03,102 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\User\src\test\resources
+2025-07-01 14:15:28,666 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-01 14:15:28,847 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-01 14:15:28,852 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Admin\src\test\resources
+2025-07-01 14:17:03,084 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-01 14:17:03,110 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-01 14:17:03,114 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Admin\src\test\resources
+2025-07-01 14:36:52,613 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-01 14:36:52,649 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-01 14:36:52,655 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Admin\src\test\resources
+2025-07-01 15:32:54,662 [Worker-45: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cbs:User:0.0.1-SNAPSHOT @ C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\User\pom.xml.
+2025-07-01 15:33:03,652 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-01 15:33:03,659 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-01 15:33:03,665 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\User\src\test\resources
+2025-07-01 15:33:05,239 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-07-01 15:33:05,291 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-01 15:33:05,339 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\User\src\test\resources
+2025-07-01 15:33:09,383 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-01 15:33:09,397 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-01 15:33:09,408 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\User\src\test\resources
+2025-07-01 15:33:10,596 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-01 15:33:10,598 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-01 15:33:10,601 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\User\src\test\resources
+2025-07-01 15:33:13,730 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-01 15:33:13,737 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-01 15:33:13,740 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\User\src\test\resources
+2025-07-01 15:37:30,582 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-01 15:37:30,604 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-01 15:37:30,607 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Gateway\src\test\resources
+2025-07-01 15:37:32,661 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-01 15:37:32,668 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-01 15:37:32,671 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\User\src\test\resources
+2025-07-01 15:37:42,039 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-01 15:37:42,071 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-01 15:37:42,076 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Admin\src\test\resources
+2025-07-01 15:37:47,465 [Worker-51: Launching Gateway - GatewayApplication] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cbs.Gateway:Gateway:0.0.1-SNAPSHOT @ C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Gateway\pom.xml.
+2025-07-01 15:37:54,696 [Worker-51: Launching Gateway - GatewayApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-01 15:37:54,697 [Worker-51: Launching Gateway - GatewayApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-01 15:37:54,702 [Worker-51: Launching Gateway - GatewayApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Gateway\src\test\resources
+2025-07-02 04:29:01,918 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-07-02 04:29:20,607 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-02 04:29:20,649 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-02 04:29:20,656 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Admin\src\test\resources
+2025-07-02 04:29:33,394 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-02 04:29:33,426 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-02 04:29:33,431 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\AuthService\src\test\resources
+2025-07-02 04:29:46,701 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-02 04:29:46,730 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-02 04:29:46,737 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Driver\src\test\resources
+2025-07-02 04:29:57,353 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-02 04:29:57,386 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-02 04:29:57,391 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\EurekaServer\src\test\resources
+2025-07-02 04:30:06,298 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-02 04:30:06,328 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-02 04:30:06,332 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Feedback\Feedback\src\test\resources
+2025-07-02 04:30:09,908 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-07-02 04:30:09,956 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-02 04:30:09,961 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Gateway\src\test\resources
+2025-07-02 04:30:22,688 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-02 04:30:22,731 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-02 04:30:22,739 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Payment\src\test\resources
+2025-07-02 04:30:34,369 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-02 04:30:34,401 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-02 04:30:34,407 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Ride\src\test\resources
+2025-07-02 04:30:46,536 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-07-02 04:30:46,605 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-02 04:30:46,628 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\User\src\test\resources
+2025-07-02 05:10:45,336 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-07-02 05:11:05,946 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-02 05:11:06,010 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-02 05:11:06,026 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Admin\src\test\resources
+2025-07-02 05:11:37,396 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-02 05:11:37,543 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-02 05:11:37,554 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\AuthService\src\test\resources
+2025-07-02 05:12:00,661 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-02 05:12:00,713 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-02 05:12:00,713 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Driver\src\test\resources
+2025-07-02 05:12:12,745 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-02 05:12:12,776 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-02 05:12:12,792 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\EurekaServer\src\test\resources
+2025-07-02 05:12:25,126 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-02 05:12:25,173 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-02 05:12:25,189 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Feedback\Feedback\src\test\resources
+2025-07-02 05:12:36,414 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-07-02 05:12:36,477 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-02 05:12:36,477 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Gateway\src\test\resources
+2025-07-02 05:12:49,740 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-02 05:12:49,780 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-02 05:12:49,790 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Payment\src\test\resources
+2025-07-02 05:13:03,034 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-02 05:13:03,102 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-02 05:13:03,112 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Ride\src\test\resources
+2025-07-02 05:13:16,573 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-07-02 05:13:16,656 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-02 05:13:16,693 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\User\src\test\resources
+2025-07-02 13:39:03,307 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-07-02 13:39:03,565 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-02 13:39:03,572 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Gateway\src\test\resources
+2025-07-02 20:35:25,551 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-07-02 20:35:26,045 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-02 20:35:26,087 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Gateway\src\test\resources
+2025-07-02 20:35:27,310 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-02 20:35:27,312 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-02 20:35:27,318 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Ride\src\test\resources
+2025-07-02 20:35:29,114 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-02 20:35:29,118 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-02 20:35:29,122 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\User\src\test\resources
+2025-07-02 20:35:31,519 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-02 20:35:31,521 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-02 20:35:31,529 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Ride\src\test\resources
+2025-07-02 20:38:43,170 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-07-02 20:38:43,201 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-02 20:38:43,206 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Gateway\src\test\resources
+2025-07-02 20:38:45,312 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-02 20:38:45,314 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-02 20:38:45,319 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Ride\src\test\resources
+2025-07-02 20:38:45,587 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-02 20:38:45,593 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-02 20:38:45,596 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\User\src\test\resources
+2025-07-02 20:39:19,955 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-02 20:39:19,956 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-02 20:39:19,961 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Payment\src\test\resources
+2025-07-02 20:39:22,138 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-02 20:39:22,139 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-02 20:39:22,144 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Ride\src\test\resources
+2025-07-02 20:39:22,366 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-02 20:39:22,371 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-02 20:39:22,374 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\User\src\test\resources
+2025-07-02 20:39:23,668 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-02 20:39:23,669 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-02 20:39:23,671 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Payment\src\test\resources
+2025-07-02 20:39:35,592 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-02 20:39:35,602 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-02 20:39:35,605 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Payment\src\test\resources
+2025-07-02 20:40:15,680 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-02 20:40:15,682 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-02 20:40:15,685 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Driver\src\test\resources
+2025-07-02 20:40:17,815 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-02 20:40:17,815 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-02 20:40:17,818 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Payment\src\test\resources
+2025-07-03 08:39:38,305 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-07-03 08:39:38,412 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-03 08:39:38,431 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\User\src\test\resources
+2025-07-03 08:39:39,120 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-03 08:39:39,121 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-03 08:39:39,127 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Driver\src\test\resources
+2025-07-03 08:39:39,464 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-03 08:39:39,467 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-03 08:39:39,475 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Payment\src\test\resources
+2025-07-03 08:39:39,777 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-03 08:39:39,779 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-03 08:39:39,785 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Ride\src\test\resources
+2025-07-03 08:42:39,734 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-07-03 08:42:39,793 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-03 08:42:39,808 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\User\src\test\resources
+2025-07-03 08:42:41,788 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-03 08:42:41,790 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-03 08:42:41,795 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\User\src\test\resources
+2025-07-03 08:43:37,515 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-03 08:43:37,521 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-03 08:43:37,525 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\User\src\test\resources
+2025-07-03 08:44:02,585 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-03 08:44:02,592 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-03 08:44:02,597 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\User\src\test\resources
+2025-07-03 08:44:15,521 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-07-03 08:44:15,552 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-03 08:44:15,568 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\User\src\test\resources
+2025-07-03 08:44:41,265 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-03 08:44:41,272 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-03 08:44:41,276 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\User\src\test\resources
+2025-07-03 08:44:42,861 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-03 08:44:42,862 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-03 08:44:42,867 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\User\src\test\resources
+2025-07-03 08:45:21,180 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-07-03 08:45:21,212 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-03 08:45:21,229 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\User\src\test\resources
+2025-07-03 08:46:26,240 [main] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating UserApplicationTests from maven configuration
+2025-07-03 08:46:36,563 [Worker-55: Launching UserApplicationTests] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-07-03 08:46:36,601 [Worker-55: Launching UserApplicationTests] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-03 08:46:36,615 [Worker-55: Launching UserApplicationTests] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\User\src\test\resources
+2025-07-03 08:51:09,983 [Worker-87: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cbs:User:0.0.1-SNAPSHOT @ C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\User\pom.xml.
+2025-07-03 08:51:25,994 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-03 08:51:26,010 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-03 08:51:26,047 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\User\src\test\resources
+2025-07-03 08:51:28,375 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-07-03 08:51:28,415 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-03 08:51:28,429 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\User\src\test\resources
+2025-07-03 08:54:41,809 [main] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating UserServiceImpTest from maven configuration
+2025-07-03 08:58:21,389 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-03 08:58:21,396 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-03 08:58:21,399 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\User\src\test\resources
+2025-07-03 08:58:23,028 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-03 08:58:23,030 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-03 08:58:23,034 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\User\src\test\resources
+2025-07-03 09:56:37,738 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-03 09:56:37,759 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-03 09:56:37,763 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\User\src\test\resources
+2025-07-03 10:22:18,286 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-07-03 10:22:18,414 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-03 10:22:18,430 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\User\src\test\resources
+2025-07-03 11:30:56,704 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-07-03 12:04:44,125 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-07-03 12:04:44,236 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-03 12:04:44,255 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\User\src\test\resources
+2025-07-03 12:29:21,546 [Worker-21: Launching User - UserApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-03 12:29:21,570 [Worker-21: Launching User - UserApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-03 12:29:21,575 [Worker-21: Launching User - UserApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\User\src\test\resources
+2025-07-03 13:05:05,962 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-03 13:05:06,021 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-03 13:05:06,033 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Driver\src\test\resources
+2025-07-03 13:05:08,150 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-03 13:05:08,157 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-03 13:05:08,160 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\User\src\test\resources
+2025-07-03 13:06:58,398 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-03 13:06:58,437 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-03 13:06:58,443 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Ride\src\test\resources
+2025-07-03 13:06:59,815 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-03 13:06:59,816 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-03 13:06:59,819 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Driver\src\test\resources
+2025-07-03 15:41:52,819 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-07-03 15:41:52,883 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-03 15:41:52,899 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\User\src\test\resources
+2025-07-03 15:41:53,673 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-03 15:41:53,674 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-03 15:41:53,680 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Driver\src\test\resources
+2025-07-03 15:41:54,062 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-03 15:41:54,063 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-03 15:41:54,069 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\2406326\Documents\ctsCabBookingProject\Backend\CabBookingMicroService\CabBookingMicroService-test\Ride\src\test\resources
+2025-07-05 10:25:25,595 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.

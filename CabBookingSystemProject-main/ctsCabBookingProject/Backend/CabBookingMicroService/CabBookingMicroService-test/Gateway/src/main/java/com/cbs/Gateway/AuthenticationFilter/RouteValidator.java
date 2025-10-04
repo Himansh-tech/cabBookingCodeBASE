@@ -1,0 +1,23 @@
+package com.cbs.Gateway.AuthenticationFilter;
+
+import org.springframework.http.server.reactive.ServerHttpRequest;
+import org.springframework.stereotype.Component;
+
+import java.util.List;
+import java.util.function.Predicate;
+
+@Component
+public class RouteValidator {
+	//access without token
+    public static final List<String> openApiEndpoints = List.of("/auth/register", "/auth/login","/eureka", "/api/v1/admin/", "/api/v1/admin");
+    
+    //takes server request returns true or false(path needs authentication or not)
+    //takes the request check this path against every item in openApiEndpoint
+    //if no match
+    //predicate returns true means this path needs authetication
+    
+    public Predicate<ServerHttpRequest> isSecured =
+            request -> openApiEndpoints
+                    .stream()
+                    .noneMatch(uri -> request.getURI().getPath().contains(uri));
+}

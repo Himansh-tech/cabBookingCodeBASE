@@ -1,0 +1,112 @@
+package com.cbs.Gateway.AuthenticationFilter;
+
+import com.cbs.Gateway.Utils.ApiResponseDto;
+import com.cbs.Gateway.Utils.JwtUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.gateway.filter.GatewayFilter;
+import org.springframework.cloud.gateway.filter.factory.AbstractGatewayFilterFactory;
+import org.springframework.context.annotation.Bean;
+import org.springframework.core.io.buffer.DataBuffer;
+import org.springframework.core.io.buffer.DataBufferFactory;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
+import org.springframework.http.server.reactive.ServerHttpResponse;
+import org.springframework.stereotype.Component;
+import reactor.core.publisher.Mono;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
+import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
+import java.time.LocalDateTime;
+
+@Component
+public class AuthenticationGatewayFilterFactory extends AbstractGatewayFilterFactory<AuthenticationGatewayFilterFactory.Config> {
+    @Autowired
+    private RouteValidator validator;
+
+    @Autowired
+    private JwtUtils jwtUtils;
+
+    // ObjectMapper for converting DTO to JSON
+    private final ObjectMapper objectMapper;
+
+    public AuthenticationGatewayFilterFactory() {
+        super(Config.class);
+        this.objectMapper = new ObjectMapper();
+        // Register the JavaTimeModule to handle LocalDateTime serialization
+        this.objectMapper.registerModule(new JavaTimeModule());
+        // Optional: for pretty printing JSON in logs, remove for production if not needed
+        this.objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
+    }
+
+    @Override
+    public GatewayFilter apply(AuthenticationGatewayFilterFactory.Config config) {
+        return ((exchange, chain) -> {
+            if (validator.isSecured.test(exchange.getRequest())) {
+                boolean authenticated = false;
+                String errorMessage = "";
+
+                if (!exchange.getRequest().getHeaders().containsKey(HttpHeaders.AUTHORIZATION)) {
+                    // Changed the message for clarity
+                    errorMessage = "Authorization header is missing. Please provide a Bearer token.";
+                } else {
+                    String authHeader = exchange.getRequest().getHeaders().getFirst(HttpHeaders.AUTHORIZATION);
+                    System.out.println(authHeader + "--------------------------------------------");
+                    if (authHeader != null && authHeader.startsWith("Bearer ")) {
+                        authHeader = authHeader.substring(7);
+                    }
+                    try {
+                        jwtUtils.validateToken(authHeader);
+                        String role = jwtUtils.extractRole(authHeader);
+                        String path = exchange.getRequest().getURI().getPath();
+                        if (path.startsWith("/api/v1/drivers") && !"Driver".equalsIgnoreCase(role)) {
+                            return sendErrorResponse(exchange.getResponse(), "Access denied for non-driver roles.");
+                        }
+                        if (path.startsWith("/api/v1/users") && !"User".equalsIgnoreCase(role)) {
+                            return sendErrorResponse(exchange.getResponse(), "Access denied for non-user roles.");
+                        }
+                        authenticated = true; // Token is valid
+                    } catch (Exception e) {
+                        System.out.println("Invalid access...!");
+                        // Capture the specific exception message to include in the error response
+                        errorMessage = "Unauthorized access Session expired: Please Log in!!!" ;
+                    }
+                }
+
+                if (!authenticated) {
+                    // Call the helper method to send the 401 response with the custom message
+                    return sendErrorResponse(exchange.getResponse(), errorMessage);
+                }
+            }
+            return chain.filter(exchange);
+        });
+    }
+
+
+    private Mono<Void> sendErrorResponse(ServerHttpResponse response, String message) {
+        response.setStatusCode(HttpStatus.UNAUTHORIZED);
+        response.getHeaders().setContentType(MediaType.APPLICATION_JSON);
+
+        ApiResponseDto<String> errorResponse = new ApiResponseDto<>(
+                true, // Indicate that this is an error response
+                message, // The custom error message you want to send
+                HttpStatus.UNAUTHORIZED.value(), // The HTTP status code
+                null // No specific data payload for an error response
+        );
+
+        try {
+            byte[] bytes = objectMapper.writeValueAsBytes(errorResponse);
+            DataBufferFactory bufferFactory = response.bufferFactory();
+            DataBuffer buffer = bufferFactory.wrap(bytes);
+            return response.writeWith(Mono.just(buffer));
+        } catch (Exception e) {
+            System.err.println("Error writing error response: " + e.getMessage());
+            return response.setComplete();
+        }
+    }
+
+
+
+    public static class Config {
+    }
+}
